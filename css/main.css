@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Quicksand:wght@300;500;700&display=swap');
 * {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
     font-family: 'Open sans', sans-serif;
 }
 body {
@@ -31,7 +35,7 @@ header .header-container .navbar {
     width: 100%;
     margin: 0 auto;
 }
-header .header-container .navbar p {
+header .header-container .navbar h2 {
     display: flex;
     margin: 0 auto;
     float: left;
@@ -55,4 +59,43 @@ header .header-container .navbar .my-blog .social-media-icon .linkedin, .github 
 }
 header .header-container .navbar .my-blog .social-media-icon .github {
     background-image: url('../assets/icons/github.png');
+}
+
+main {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.main h1 {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 100;
+    top: 150%;
+    color: white;
+    text-align: center;
+}
+.main img {
+    width: 100%;
+    height: 1050px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main button {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 500%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.main button:hover {
+    background-color: rgb(206, 66, 180);
 }

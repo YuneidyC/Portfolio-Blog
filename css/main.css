@@ -218,3 +218,11 @@ footer p {
     color: #e6e9ed;
     margin-top: 25px;
 }
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}

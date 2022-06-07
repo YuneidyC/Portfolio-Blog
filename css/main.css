@@ -138,6 +138,7 @@ header .header-container .navbar .my-blog .social-media-icon .github {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
+    height: 95%;
 }
 
 .blogs-news-img-container {
@@ -153,14 +154,21 @@ header .header-container .navbar .my-blog .social-media-icon .github {
 }
 
 .blogs-news-info-container p {
-    margin-bottom: 35px;
+    margin-bottom: 10x;
 }
 
 .blogs-button {
-    background-color: var(--purple);
-    padding: 10px 15px;
+    padding: 5px 10px;
     font-size: 12px;
-    border-color: var(--purple);
     border-radius: 20px;
     font-weight: 700;
+    margin-top: 15px;
+    border-color: var(--purple);
+    background-color: var(--purple);
 }
+
+.blogs-button:hover {
+    border-color: var(--purple);
+    background-color: #e6e9ed;
+}
+

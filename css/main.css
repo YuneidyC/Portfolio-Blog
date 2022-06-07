@@ -155,3 +155,12 @@ header .header-container .navbar .my-blog .social-media-icon .github {
 .blogs-news-info-container p {
     margin-bottom: 35px;
 }
+
+.blogs-button {
+    background-color: var(--purple);
+    padding: 10px 15px;
+    font-size: 12px;
+    border-color: var(--purple);
+    border-radius: 20px;
+    font-weight: 700;
+}

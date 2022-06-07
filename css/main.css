@@ -172,6 +172,12 @@ header .header-container .navbar .my-blog .social-media-icon .github {
     background-color: #e6e9ed;
 }
 
+.blogs-posts-container h3 {
+    text-align: center;
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 10px;
+}
+
 .blogs-posts-container .post-container {
     display: inline-block;
     padding-left: 10px;
@@ -190,7 +196,7 @@ header .header-container .navbar .my-blog .social-media-icon .github {
 .blogs-posts-container .post-container img {
     width: 100%;
     max-width: 195px;
-    max-height: 130px;
+    max-height: 112px;
 }
 
 footer {

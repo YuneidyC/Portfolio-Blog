@@ -31,6 +31,12 @@ a {
     right: 0;
 }
 
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+    text-align: center;
+}
+
 header {
     width: 100%;
     height: 70px;
@@ -139,6 +145,7 @@ header .header-container .navbar .my-blog .social-media-icon .github {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
     height: 95%;
+    text-align: initial;
 }
 
 .blogs-news-img-container {
@@ -183,6 +190,7 @@ header .header-container .navbar .my-blog .social-media-icon .github {
     padding-left: 10px;
     max-width: 30%;
     margin-bottom: 50px;
+    text-align: initial;
 }
 
 .blogs-posts-container .post-container p {

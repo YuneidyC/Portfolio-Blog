@@ -264,6 +264,11 @@ footer p {
     text-align: initial;
 }
 
+.blogpost-main-container .blogs-button {
+    display: flex;
+    justify-content: end;
+}
+
 .contact-main-container {
     width: 100%;
     min-width: 250px;

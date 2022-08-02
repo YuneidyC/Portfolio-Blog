@@ -35,4 +35,19 @@
         max-width: 246px;
         max-height: 167px;
     }
+
+    .contact-main-container {
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .contact-main-container div {
+        margin: 15px;
+    }
+
+    .contact-main-container .contact-left, .contact-main-container .contact-right {
+        margin: 0 0 15px 0;
+    }
 }

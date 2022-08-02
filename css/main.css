@@ -248,7 +248,7 @@ footer p {
     width: 100%;
     min-width: 250px;
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px 0;
     background-color: #cdd2da;
 }
 
@@ -263,14 +263,9 @@ footer p {
     padding-bottom: 5px;
 }
 
-.contact-main-container .contact-left {
+.contact-main-container .contact-left, .contact-right {
     text-align: initial;
     margin-top: 85px;
-}
-
-.contact-main-container .contact-right {
-    text-align: initial;
-    margin-top: 50px;
 }
 
 .contact-main-container img {

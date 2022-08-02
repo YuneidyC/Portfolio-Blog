@@ -169,7 +169,7 @@ header .header-container .navbar .my-blog .social-media-icon .github {
     font-size: 12px;
     border-radius: 20px;
     font-weight: 700;
-    margin-top: 15px;
+    margin: 15px 0;
     border-color: var(--purple);
     background-color: var(--purple);
 }
@@ -189,7 +189,6 @@ header .header-container .navbar .my-blog .social-media-icon .github {
     display: inline-block;
     padding-left: 10px;
     max-width: 30%;
-    margin-bottom: 50px;
     text-align: initial;
 }
 

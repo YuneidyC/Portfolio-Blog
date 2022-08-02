@@ -56,14 +56,20 @@ header .header-container .navbar {
     margin: 0 auto;
 }
 
-header .header-container .navbar h2 {
+header .header-container .navbar .my-blog-link {
     display: flex;
     margin: 0 auto;
     float: left;
     text-align: center;
     padding-top: 5px;
-    color: white;
     margin-left: 15px;
+}
+
+header .header-container .navbar .my-blog-link a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 header .about-me {

@@ -15,4 +15,4 @@ This project was developed during the course [**CSS Layout Practical**](https://
 
 # Test it out
 
-You can test this [**here**](https://yuneidyc.github.io/blogPost/).
+You can test this [**here**](https://yuneidyc.github.io/Portfolio-Blog/).

@@ -2,7 +2,8 @@
 
 This project was developed during the course [**CSS Layout Practical**](https://platzi.com/cursos/practico-css/).
 
-# Tech stack
+## Tech stack
+---
 
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" >
@@ -13,6 +14,12 @@ This project was developed during the course [**CSS Layout Practical**](https://
   </a>
 </p>
 
-# Test it out
+## Lighthouse
+---
+
+<img src="lighthouse_results/desktop/pagespeed.svg" alt="Lighthouse report" width="800" />
+
+## Test it out
+---
 
 You can test this [**here**](https://yuneidyc.github.io/Portfolio-Blog/).
